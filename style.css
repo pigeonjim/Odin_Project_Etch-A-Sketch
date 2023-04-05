@@ -1,37 +1,27 @@
 .theBoxes {
     border: 0px;
-    margin: 2px;
-    padding: 10px;
-    background-color: #616161;
+    margin: 1px;
+    padding: 2fr;
+    background-color: #A3E4D7 ;
 
 }
 .mainDiv {
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
     display: grid;
-    flex-grow: 1;
-    flex-shrink: 1;
-    height: 75vh;
+    height: 80vh;
+    width: 80vh;
 }
-.grid {
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-}
+
 .esHeader{
     padding: auto;
     border: 0px;
-    margin: auto;
+    margin: 0px;
     background-color: #7DA2A9;
     height: 75px;
-    width:75%;
+    width:500px;
     display: flex;
-    align-content: center;
     justify-content: center;
     border-radius: 10%;
-    flex-grow: 1;
-    flex-shrink: 1;
+    align-self: center;
 }
 .theButton{
     border-radius: 5pt;
@@ -39,14 +29,15 @@
     color: #e1b382;
     height: 50px;
     width: 250px;
-    margin-top: 10px
+    align-self: center;
 
 }
 .flexDiv{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     margin: 0%;
     background-color: #E8EAE3;
-    height: 100vh;
+    height: 100vh; 
+    gap: 10px; 
 }
