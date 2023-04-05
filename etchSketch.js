@@ -29,7 +29,7 @@ function addBoxes(boxSideSize, mainDiv){
         mainDiv.appendChild(box);        
 
         box.addEventListener("mouseover", (event) => {
-            box.style.setProperty("background-color", "#000000" )
+            box.style.setProperty("background-color", "#5D6D7E" )
         });       
     }
 }

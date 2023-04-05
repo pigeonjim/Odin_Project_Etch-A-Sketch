@@ -2,20 +2,23 @@
     border: 0px;
     margin: 1px;
     padding: 2fr;
-    background-color: #A3E4D7 ;
+    background-color: #959496 ;
 
 }
 .mainDiv {
     display: grid;
     height: 80vh;
     width: 80vh;
+  
+    border-color: rgb(79, 45, 99);
+    border-style:dotted;
 }
 
 .esHeader{
     padding: auto;
     border: 0px;
     margin: 0px;
-    background-color: #7DA2A9;
+    background-color: #dac292;
     height: 75px;
     width:500px;
     display: flex;
@@ -37,7 +40,8 @@
     flex-direction: column;
     align-items:center;
     margin: 0%;
-    background-color: #E8EAE3;
+    border: 0px;
+    background-color: #c4b7a6;
     height: 100vh; 
     gap: 10px; 
 }
