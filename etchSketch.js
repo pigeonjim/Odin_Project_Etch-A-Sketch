@@ -2,10 +2,6 @@ window.addEventListener("load", (event) => {
     onLoad();
 });
 
-window.addEventListener("resize", (event) => {
-    setTheHeights();
-})
-
 function onLoad(boxSize = 16){
     const mainDiv = document.createElement("div");
     const headerDiv = document.createElement("div");
@@ -24,7 +20,6 @@ function onLoad(boxSize = 16){
     theButton.addEventListener("click", (event) => {
         clickTheButton();
     })
-
 }
 
 function addBoxes(boxSideSize, mainDiv){
@@ -32,10 +27,9 @@ function addBoxes(boxSideSize, mainDiv){
         const box = document.createElement("div");
         box.classList = "theBoxes";
         mainDiv.appendChild(box);        
-        let boxHeight = `${(window.innerHeight * 0.80)/boxSideSize}px`;
-        box.style.setProperty("height", boxHeight); 
+
         box.addEventListener("mouseover", (event) => {
-            box.style.setProperty("background-color", "#12343b" )
+            box.style.setProperty("background-color", "#000000" )
         });       
     }
 }
@@ -44,15 +38,6 @@ function dynamicGridSize(boxSideSize, mainDiv){
     addBoxes(boxSideSize, mainDiv);
     let colNoSt = `repeat(${boxSideSize}, auto)` 
     mainDiv.style.gridTemplateColumns = colNoSt;
-    let mainDivHeight = `${window.innerHeight * 0.85}px`;
-    mainDiv.style.setProperty("max-height", mainDivHeight);
-}
-
-function setTheHeights(noCols){    
-    let mainDivHeight = `${window.innerHeight * 0.85}px`;
-    document.querySelector(".mainDiv").style.setProperty("max-height",mainDivHeight);
-    let boxHeight = `${(window.innerHeight * 0.85)/noCols}px`;
-    document.querySelector(".theBoxes").style.setProperty("height", boxHeight);
 }
 
 function clickTheButton(){

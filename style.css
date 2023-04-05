@@ -1,17 +1,18 @@
 .theBoxes {
     border: 0px;
     margin: 2px;
-    padding: 0px;
-    background-color: #616161
-    ;  
-    
+    padding: 10px;
+    background-color: #616161;
+
 }
 .mainDiv {
     padding: 0px;
     border: 0px;
     margin: 0px;
     display: grid;
-    align-items: center; 
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 75vh;
 }
 .grid {
     padding: 0px;
@@ -22,17 +23,20 @@
     padding: auto;
     border: 0px;
     margin: auto;
-    background-color: #c2b490;
+    background-color: #7DA2A9;
     height: 75px;
     width:75%;
     display: flex;
     align-content: center;
     justify-content: center;
     border-radius: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .theButton{
     border-radius: 5pt;
-    background-color: #c89666 ;
+    background-color: #646C79 ;
+    color: #e1b382;
     height: 50px;
     width: 250px;
     margin-top: 10px
@@ -40,7 +44,9 @@
 }
 .flexDiv{
     display: flexbox;
+    flex-direction: column;
     align-items: center;
     margin: 0%;
-    background-color: #e1b382;
+    background-color: #E8EAE3;
+    height: 100vh;
 }
