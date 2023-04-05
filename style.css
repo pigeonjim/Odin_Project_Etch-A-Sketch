@@ -1,17 +1,11 @@
 .theBoxes{
     border: 0px;
-    margin: 0px;
+    margin: 2px;
     padding: 0px;
-    background-color: aquamarine;
-    min-width: max-content;
-    min-height: 10px;
+    background-color: aquamarine;  
+    min-height: 20px;
 }
 .mainDiv{
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    align-items: center;
-    grid-auto-rows: 200px;
+    align-items: center; 
 }
