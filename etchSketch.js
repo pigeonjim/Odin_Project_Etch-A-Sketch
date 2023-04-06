@@ -3,6 +3,7 @@ window.addEventListener("load", (event) => {
 });
 
 function onLoad(boxSize = 16){
+    document.body.classList = "body";
     const mainDiv = document.createElement("div");
     const headerDiv = document.createElement("div");
     const theButton = document.createElement("button");

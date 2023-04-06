@@ -8,17 +8,19 @@
 .mainDiv {
     display: grid;
     height: 80vh;
-    width: 80vh;
-  
-    border-color: rgb(79, 45, 99);
-    border-style:dotted;
+    width: 80vh;  
+    border-color: rgb(214, 26, 26);
+    border-style:solid;
+    border-width: 5px;
 }
 
 .esHeader{
     padding: auto;
-    border: 0px;
-    margin: 0px;
-    background-color: #dac292;
+    border: 2px;
+    border-color: black;
+    border-style:ridge;
+    margin: 2px;
+    background-color: #b8a27781;
     height: 75px;
     width:500px;
     display: flex;
@@ -29,7 +31,8 @@
 .theButton{
     border-radius: 5pt;
     background-color: #646C79 ;
-    color: #e1b382;
+    color: #78c498;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 50px;
     width: 250px;
     align-self: center;
@@ -41,7 +44,11 @@
     align-items:center;
     margin: 0%;
     border: 0px;
-    background-color: #c4b7a6;
+    background-image: url(vCanvas.jpg);
     height: 100vh; 
     gap: 10px; 
+}
+.body{
+    margin: 0px;
+    padding: 0px;    
 }
